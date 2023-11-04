@@ -1,0 +1,27 @@
+{
+  "name": "blessing-ingyape-portfolio-app",
+  "version": "1.0.0",
+  "description": "A single page Portfolio Website, highly reactive, built with node.js and tailwindcss",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js",
+    "build": "tailwindcss -i ./public/input.css -o ./public/css/main.css",
+    "watch": "tailwindcss -i ./public/input.css -o ./public/css/main.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.5"
+  },
+  "dependencies": {
+    "connect-flash": "^0.1.1",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "flowbite": "^2.0.0",
+    "nodemailer": "^6.9.7",
+    "postmark": "^3.1.1"
+  }
+}
